@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css"  type="text/css">
+    <title>Chat</title>
+</head>
+<body>
+    <div>
+        <h1>Chat</h1>    
+    </div>
+
+    <form id="formulario" class="form-inline">
+        <div class="form-group mx-sm-3 mb-2">
+            <input class="form-control" type="text" id="texto" placeholder="Mensaje">
+        </div>
+            
+        <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+    </form>
+
+    <div id="chat">
+
+    </div>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/socket.js"></script>
+</body>
+</html>

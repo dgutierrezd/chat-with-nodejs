@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css"  type="text/css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="jumbotron text-center">
+            <h1>Ingresar al Chat</h1>    
+    </div>
+
+    <form method="GET" action="chat.html">
+        <div class="container-fluid col-md-3">
+            <div class="form-group">
+                <label>Usuario</label>
+                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Nombre de Usuario">
+            </div>
+            <button class="btn btn-primary">Ingresar</button>
+        </div>
+    </form>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/socket.js"></script>
+</body>
+</html>
